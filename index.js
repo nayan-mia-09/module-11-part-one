@@ -96,11 +96,28 @@
 
 // Dynamic function
 
-function numSquare(square){
-    return function(double){
-        return square * double;
-    }
+// function numSquare(square){
+//     return function(double){
+//         return square * double;
+//     }
+// }
+
+// const result = numSquare(10);
+// console.log(result(2));
+
+// Loops 
+
+// For of loop
+
+let arr = [10,20,30,40];
+
+for(let value of arr){
+    console.log(value);
 }
 
-const result = numSquare(10);
-console.log(result(2));
+// For in loop
+
+let obj = {name:"Nayan", age: 20, id: 2302};
+for(let value in obj){
+    console.log(value, obj[value]);
+}
