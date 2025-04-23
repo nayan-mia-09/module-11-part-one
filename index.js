@@ -109,15 +109,37 @@
 
 // For of loop
 
-let arr = [10,20,30,40];
+// let arr = [10,20,30,40];
 
-for(let value of arr){
-    console.log(value);
+// for(let value of arr){
+//     console.log(value);
+// }
+
+// // For in loop
+
+// let obj = {name:"Nayan", age: 20, id: 2302};
+// for(let value in obj){
+//     console.log(value, obj[value]);
+// }
+
+// Object 
+
+let person = {
+    name:"Rohim",
+    age: 20,
+    city:"Dhaka"
 }
+console.log(person);
 
-// For in loop
+const name = "Rakin";
+const age = 23;
+const city = "Rajshahi";
 
-let obj = {name:"Nayan", age: 20, id: 2302};
-for(let value in obj){
-    console.log(value, obj[value]);
-}
+const obj = {name, age, city};
+
+console.log(obj);
+
+const obj1 = {pronoun:"Nayan", old: 22, town:"Faridpur"}
+
+const {pronoun, old, town} = obj1
+console.log(pronoun, old, town);
