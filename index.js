@@ -124,22 +124,35 @@
 
 // Object 
 
-let person = {
-    name:"Rohim",
-    age: 20,
-    city:"Dhaka"
-}
-console.log(person);
+// let person = {
+//     name:"Rohim",
+//     age: 20,
+//     city:"Dhaka"
+// }
+// console.log(person);
 
-const name = "Rakin";
-const age = 23;
-const city = "Rajshahi";
+// const name = "Rakin";
+// const age = 23;
+// const city = "Rajshahi";
 
-const obj = {name, age, city};
+// const obj = {name, age, city};
 
-console.log(obj);
+// console.log(obj);
 
-const obj1 = {pronoun:"Nayan", old: 22, town:"Faridpur"}
+// const obj1 = {pronoun:"Nayan", old: 22, town:"Faridpur"}
 
-const {pronoun, old, town} = obj1
-console.log(pronoun, old, town);
+// const {pronoun, old, town} = obj1
+// console.log(pronoun, old, town);
+
+// Decision Making
+
+let age = 25;
+if(age>= 18){
+    console.log("You are an adult.");
+}else{
+    console.log("You are a minor.");
+};
+
+let old = 15;
+const result = old >= 18 ? "You are an adult" : "You are a minor."
+console.log(result);
