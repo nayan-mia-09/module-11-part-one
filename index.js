@@ -23,24 +23,30 @@
 
 // Hoisting 
 
-console.log(a);
+// console.log(a);
 
-const a = 20; // ReferenceError
+// const a = 20; // ReferenceError
 
-let b = 50;
-console.log(b) // 50
+// let b = 50;
+// console.log(b) // 50
 
-funcHoisting() // 70
-function funcHoisting(){
-    let a = 50;
-    let b = 20;
-    const sum = a + b;
-    console.log(sum)
-} 
+// funcHoisting() // 70
+// function funcHoisting(){
+//     let a = 50;
+//     let b = 20;
+//     const sum = a + b;
+//     console.log(sum)
+// } 
 
-func(70,30) // ReferenceError
-const func = (num1, num2) => {
-let result = num1 + num2;
-console.log(result)
-}
+// func(70,30) // ReferenceError
+// const func = (num1, num2) => {
+// let result = num1 + num2;
+// console.log(result)
+// }
 
+
+// The Strict Mode 
+
+"use strict"
+ let a = 10;
+ console.log(a);
