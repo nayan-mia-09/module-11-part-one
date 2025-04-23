@@ -74,14 +74,22 @@
 
 // ES6 Array De-Structring 
 
-let array = [10,20,30];
+// let array = [10,20,30];
 
-let [num, num1, num2] = array;
+// let [num, num1, num2] = array;
 
-console.log(num, num1, num2);
+// console.log(num, num1, num2);
 
-// ES6 Object De-Structring
+// // ES6 Object De-Structring
 
-let obj = {a: 40, b: 60, c: 80};
-let {a,b,c} = obj;
-console.log(a,b,c);
+// let obj = {a: 40, b: 60, c: 80};
+// let {a,b,c} = obj;
+// console.log(a,b,c);
+
+// ES6 Function 
+
+const result = (a,b) => {
+    let sum = a * b;
+    console.log(sum);
+};
+result(10,50)
