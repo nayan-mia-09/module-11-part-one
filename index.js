@@ -88,8 +88,19 @@
 
 // ES6 Function 
 
-const result = (a,b) => {
-    let sum = a * b;
-    console.log(sum);
-};
-result(10,50)
+// const result = (a,b) => {
+//     let sum = a * b;
+//     console.log(sum);
+// };
+// result(10,50)
+
+// Dynamic function
+
+function numSquare(square){
+    return function(double){
+        return square * double;
+    }
+}
+
+const result = numSquare(10);
+console.log(result(2));
