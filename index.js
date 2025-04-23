@@ -53,11 +53,21 @@
 
 // Spread Operator
 
-let arr1 = [1,2,3,4];
-let arr2 = [...arr1,5,6,7,8];
-console.log(arr2);
+// let arr1 = [1,2,3,4];
+// let arr2 = [...arr1,5,6,7,8];
+// console.log(arr2);
 
-let obj1 = {a: 10, b: 30, c: 40};
-let obj2 = {...obj1, d: 50, e: 60, f: 70}
+// let obj1 = {a: 10, b: 30, c: 40};
+// let obj2 = {...obj1, d: 50, e: 60, f: 70}
 
-console.log(obj2);
+// console.log(obj2);
+
+// Rest Operator/ Parameter
+
+function sum (...numbers){
+  
+    let result = numbers.reduce((acc, num) => acc + num, 0);
+    console.log(result);
+};
+
+sum(100,50)
