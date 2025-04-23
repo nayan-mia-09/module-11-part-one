@@ -64,10 +64,24 @@
 
 // Rest Operator/ Parameter
 
-function sum (...numbers){
+// function sum (...numbers){
   
-    let result = numbers.reduce((acc, num) => acc + num, 0);
-    console.log(result);
-};
+//     let result = numbers.reduce((acc, num) => acc + num, 0);
+//     console.log(result);
+// };
 
-sum(100,50)
+// sum(100,50)
+
+// ES6 Array De-Structring 
+
+let array = [10,20,30];
+
+let [num, num1, num2] = array;
+
+console.log(num, num1, num2);
+
+// ES6 Object De-Structring
+
+let obj = {a: 40, b: 60, c: 80};
+let {a,b,c} = obj;
+console.log(a,b,c);
